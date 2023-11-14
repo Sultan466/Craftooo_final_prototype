@@ -1,0 +1,31 @@
+/* background images css */
+.Section_top {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-image: url(../../assets/milky-way-2695569.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 10s infinite ease-in-out;
+}
+@keyframes change {
+  0% {
+    background-image: url(../../assets/circle.jpg);
+  }
+  20% {
+    background-image: url(../../assets/milky-way-2695569.jpg);
+  }
+  40% {
+    background-image: url(../../assets/plouzane.jpg);
+  }
+  60% {
+    background-image: url(../../assets/skyscrapers-4168483.jpg);
+  }
+  80% {
+    background-image: url(../../assets/milky-way-2695569.jpg);
+  }
+  100% {
+    background-image: url(../../assets/plouzane.jpg);
+  }
+}
